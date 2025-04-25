@@ -31,10 +31,10 @@ class EncryptionDecryption():
                 except:
                     print('shift only be in digits')
 
-            if what_to_do == 'e':
+            if what_to_do == 'encrypt':
                 print(self.encryption_function(text,shift))
 
-            elif what_to_do == 'd':
+            elif what_to_do == 'decrypt':
                 print(self.decryption_function(text,shift))
         
         else:
